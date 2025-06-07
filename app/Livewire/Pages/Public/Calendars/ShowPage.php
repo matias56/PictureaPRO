@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Livewire\Pages\Public\Calendars;
-
 use App\Models\User;
 use App\Models\Client;
 use Mary\Traits\Toast;
@@ -22,10 +21,10 @@ use Illuminate\Support\Facades\DB;
 use App\Livewire\Forms\BookingForm;
 use App\Models\CalendarAvailability;
 use App\Notifications\Bookings\PhotographerBooked;
-
 #[Layout('components.layouts.public')]
 class ShowPage extends Component
 {
+    use Toast;
 
     #[Locked]
     public string $slug;
