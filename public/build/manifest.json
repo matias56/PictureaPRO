@@ -1,0 +1,18 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-CpATHFPD.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/fullcalendar.css": {
+    "file": "assets/fullcalendar-DbTa2CUi.css",
+    "src": "resources/css/fullcalendar.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Dfyj1Muh.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
