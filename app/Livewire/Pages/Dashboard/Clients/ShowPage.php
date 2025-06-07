@@ -22,7 +22,10 @@ class ShowPage extends Component
             ->with(['province', 'country'])
             ->find($this->id);
 
-      
+        if (is_null($client)) {
+            return redirect()->route('dashboard.clients.index');
+        }
+
         $this->client = $client;
     }
 
