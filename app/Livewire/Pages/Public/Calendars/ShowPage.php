@@ -26,7 +26,6 @@ use App\Notifications\Bookings\PhotographerBooked;
 #[Layout('components.layouts.public')]
 class ShowPage extends Component
 {
-    use Toast;
 
     #[Locked]
     public string $slug;
