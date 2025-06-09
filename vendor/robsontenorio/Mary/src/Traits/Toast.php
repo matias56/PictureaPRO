@@ -1,6 +1,6 @@
 <?php
 
-namespace Mary\Traits;
+namespace Mary\src\Traits;
 
 use Blade;
 
