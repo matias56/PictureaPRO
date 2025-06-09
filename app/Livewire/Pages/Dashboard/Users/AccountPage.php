@@ -7,12 +7,10 @@ use App\Models\Country;
 use App\Models\Province;
 use Livewire\Component;
 use Livewire\WithFileUploads;
-use Mary\Traits\Toast;
 
 class AccountPage extends Component
 {
     use WithFileUploads;
-    use Toast;
 
     public UserForm $form;
     public mixed $signature = null;
