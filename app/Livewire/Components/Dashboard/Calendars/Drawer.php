@@ -3,7 +3,6 @@
 namespace App\Livewire\Components\Dashboard\Calendars;
 
 use Carbon\Carbon;
-use Mary\Traits\Toast;
 use App\Models\Service;
 use Livewire\Component;
 use App\Models\Calendar;
@@ -17,7 +16,6 @@ use App\Models\CalendarQuestion;
 class Drawer extends Component
 {
     use WithFileUploads;
-    use Toast;
 
     public CalendarForm $form;
     public bool $open = false;

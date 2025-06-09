@@ -6,12 +6,10 @@ use App\Models\Client;
 use App\Models\User;
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\On;
-use Mary\Traits\Toast;
 use Livewire\Component;
 
 class ShowPage extends Component
 {
-    use Toast;
 
     public int $id;
     public Client $client;

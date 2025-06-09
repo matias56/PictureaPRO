@@ -9,12 +9,10 @@ use Livewire\Component;
 use Livewire\Attributes\On;
 use Livewire\WithPagination;
 use Illuminate\Support\Facades\Auth;
-use Mary\Traits\Toast;
 
 class IndexPage extends Component
 {
     use WithPagination;
-    use Toast;
 
     public ClientForm $form;
     public string $search = '';

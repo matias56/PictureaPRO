@@ -5,14 +5,12 @@ namespace App\Livewire\Components\Dashboard\Clients;
 use App\Livewire\Forms\ClientForm;
 use App\Models\Client;
 use App\Models\User;
-use Mary\Traits\Toast;
 use Livewire\Component;
 use Livewire\Attributes\On;
 use Illuminate\Support\Facades\Auth;
 
 class Drawer extends Component
 {
-    use Toast;
 
     public bool $open = false;
     public string $action = 'create';

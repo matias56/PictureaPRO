@@ -2,7 +2,6 @@
 
 namespace App\Livewire\Pages\Dashboard\Users;
 
-use Mary\Traits\Toast;
 use Livewire\Component;
 use Livewire\WithFileUploads;
 use App\Livewire\Forms\UserForm;
@@ -10,7 +9,6 @@ use App\Livewire\Forms\UserForm;
 class ImagesPage extends Component
 {
     use WithFileUploads;
-    use Toast;
 
     public UserForm $form;
     public mixed $logo = null;

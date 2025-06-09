@@ -3,14 +3,12 @@
 namespace App\Livewire\Pages\Dashboard\Users;
 
 use Stripe\Stripe;
-use Mary\Traits\Toast;
 use Livewire\Component;
 use App\Livewire\Forms\UserForm;
 use Illuminate\Support\Facades\Auth;
 
 class PaymentsPage extends Component
 {
-    use Toast;
 
     public UserForm $form;
 

@@ -3,7 +3,6 @@
 namespace App\Livewire\Components\Dashboard\Bookings;
 
 use App\Models\Client;
-use Mary\Traits\Toast;
 use App\Models\Booking;
 use Livewire\Component;
 use App\Models\Calendar;
@@ -21,7 +20,6 @@ use App\Notifications\Bookings\ClientConfirmed;
 
 class Drawer extends Component
 {
-    use Toast;
 
     public BookingForm $form;
     public ?int $calendar_id = null;

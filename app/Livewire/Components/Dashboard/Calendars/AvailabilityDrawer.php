@@ -2,7 +2,6 @@
 
 namespace App\Livewire\Components\Dashboard\Calendars;
 
-use Mary\Traits\Toast;
 use Livewire\Component;
 use App\Models\ServicePack;
 use Livewire\Attributes\On;
@@ -13,7 +12,6 @@ use App\Livewire\Forms\CalendarAvailabilityForm;
 
 class AvailabilityDrawer extends Component
 {
-    use Toast;
 
     public CalendarAvailabilityForm $form;
     public bool $open = false;

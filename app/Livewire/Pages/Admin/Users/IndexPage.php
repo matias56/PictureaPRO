@@ -3,7 +3,6 @@
 namespace App\Livewire\Pages\Admin\Users;
 
 use App\Models\User;
-use Mary\Traits\Toast;
 use Livewire\Component;
 use Livewire\WithPagination;
 use Livewire\Attributes\Layout;
@@ -13,7 +12,6 @@ use Illuminate\Support\Facades\Auth;
 class IndexPage extends Component
 {
     use WithPagination;
-    use Toast;
 
     public string $search = '';
     public array $sortBy = ['column' => 'created_at', 'direction' => 'desc'];

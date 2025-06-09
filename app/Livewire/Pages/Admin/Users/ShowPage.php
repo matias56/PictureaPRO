@@ -3,7 +3,6 @@
 namespace App\Livewire\Pages\Admin\Users;
 
 use App\Models\User;
-use Mary\Traits\Toast;
 use Livewire\Component;
 use Livewire\Attributes\On;
 use Livewire\Attributes\Layout;
@@ -11,7 +10,6 @@ use Livewire\Attributes\Layout;
 #[Layout('components.layouts.admin')]
 class ShowPage extends Component
 {
-    use Toast;
 
     public int $id;
     public ?User $user = null;
