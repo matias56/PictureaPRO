@@ -3,8 +3,6 @@
 namespace App\Livewire\Pages\Public\Calendars;
 use App\Models\User;
 use App\Models\Client;
-namespace Mary\src\Traits\Toast;
-use Mary\src\Traits\Toast;
 use App\Models\Service;
 use Livewire\Component;
 use App\Models\Calendar;
@@ -25,7 +23,6 @@ use App\Notifications\Bookings\PhotographerBooked;
 #[Layout('components.layouts.public')]
 class ShowPage extends Component
 {
-    use Toast;
 
     #[Locked]
     public string $slug;
