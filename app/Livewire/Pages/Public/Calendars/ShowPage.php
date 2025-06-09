@@ -3,7 +3,7 @@
 namespace App\Livewire\Pages\Public\Calendars;
 use App\Models\User;
 use App\Models\Client;
-use Mary\Traits\Toast;
+use Mary\src\Traits\Toast;
 use App\Models\Service;
 use Livewire\Component;
 use App\Models\Calendar;
